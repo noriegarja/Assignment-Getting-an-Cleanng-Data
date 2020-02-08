@@ -1,0 +1,33 @@
+---
+title: "CodeBook"
+author: "Jose Noriega"
+date: "8/2/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**CodeBook**
+** find below detail about important variable in the code**
+
+-trainingSubjects, vector which recopilate the data from "subject_train.txt"
+-trainingValues, vector which recopilate the data from "X_train.txt"
+-trainingActivity vector which recopilate the data from "y_train.txt"))
+
+-testSubjects vector which recopilate the data from "subject_test.txt"
+-testValues vector which recopilate the data from"X_test.txt"
+-testActivity vector which recopilate the data from"y_test.txt"
+
+
+-features  table which recopilate the data from  "features.txt"
+-activities table which recopilate the data from"activity_labels.txt"
+
+-humanActivity table with the merge between training and test data
+
+-ColumnsToEstract  table which perform mean and SD of subject and activity data 
+
+-humanActivityAverage is the table which recopilate all the data merged groping by subject and activity and summarise by mean
+
+-Note : we need to download the "dplyr" library 
